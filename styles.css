@@ -21,6 +21,7 @@ footer {
   margin-top: 20px;
 }
 
+/*
 .timeline {
   border-left: 3px solid #007bff;
   padding-left: 20px;
@@ -42,6 +43,7 @@ footer {
   background-color: #007bff;
   border-radius: 50%;
 }
+*/
 
 .card {
   border: none;
@@ -58,6 +60,7 @@ footer {
   font-size: 1.25rem;
 }
 
+/*
 .timeline {
   position: relative;
   border-left: 3px solid #007bff;
@@ -80,6 +83,7 @@ footer {
   background-color: #007bff;
   border-radius: 50%;
 }
+*/
 
 .card {
   margin-left: 20px;
@@ -183,10 +187,7 @@ footer {
   background-color: #fef9c3; /* Light pastel yellow */
 }
 
-/* Timeline spacing */
-.timeline-item {
-  margin-bottom: 20px;
-}
+
 
 
 /* Glassy Rectangular Button with Pastel Blue Tinge */
@@ -216,3 +217,66 @@ footer {
   font-size: 1rem;
   margin-left: 5px;
 }
+
+
+
+
+
+/* Updated Timeline Styling */
+.timeline {
+  position: relative;
+  padding-left: 20px;
+  margin: 0;
+  margin-top: 20px;
+  /* Removed border-left here */
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px; /* Space between timeline items */
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -10px; /* Align to the left */
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background: rgba(199, 0, 57, 0.9); /* Glassy pastel red */
+  border: 3px solid #000; /* Black border */
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.2); /* Glassy effect */
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  left: 0; /* Align the dashed line to the left */
+  top: 20px;
+  height: calc(100% + 30px);
+  width: 2px;
+  border-left: 2px dashed #000; /* Pastel blue dashed line */
+  z-index: 1;
+}
+
+
+
+.timeline-item-content {
+  margin-left: 40px; /* Offset content to the right of the line */
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+/* Align Timeline Items Correctly */
+.timeline-item:last-child::after {
+  display: none; /* Remove line for the last item */
+}
+
+/* Timeline spacing */
+.timeline-item {
+  margin-bottom: 20px;
+}
+
+
