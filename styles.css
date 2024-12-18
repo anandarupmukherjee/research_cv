@@ -170,4 +170,49 @@ footer {
   margin-right: 1rem; /* Bootstrap spacing for icon and text */
 }
 
+/* Pastel Colors for Cards */
+.pastel-blue {
+  background-color: #dbeafe; /* Light pastel blue */
+}
 
+.pastel-green {
+  background-color: #defaf0; /* Light pastel green */
+}
+
+.pastel-yellow {
+  background-color: #fef9c3; /* Light pastel yellow */
+}
+
+/* Timeline spacing */
+.timeline-item {
+  margin-bottom: 20px;
+}
+
+
+/* Glassy Rectangular Button with Pastel Blue Tinge */
+.btn-read-more {
+  width: auto;
+  padding: 6px 12px;
+  background: rgba(173, 216, 230, 0.6); /* Light pastel blue with transparency */
+  border: 1px solid rgba(173, 216, 230, 0.8);
+  border-radius: 6px; /* Slightly rounded corners */
+  color: #007bff; /* Blue text */
+  font-size: 0.9rem;
+  font-weight: bold;
+  backdrop-filter: blur(5px); /* Glassy effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-read-more:hover {
+  background: rgba(173, 216, 230, 0.8); /* Darker pastel blue on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  color: #0056b3; /* Darker blue text on hover */
+  text-decoration: none;
+}
+
+.btn-read-more i {
+  font-size: 1rem;
+  margin-left: 5px;
+}
