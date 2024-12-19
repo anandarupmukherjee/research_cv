@@ -21,29 +21,7 @@ footer {
   margin-top: 20px;
 }
 
-/*
-.timeline {
-  border-left: 3px solid #007bff;
-  padding-left: 20px;
-  margin-top: 20px;
-}
 
-.timeline-item {
-  margin-bottom: 20px;
-  position: relative;
-}
-
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -10px;
-  top: 0;
-  width: 10px;
-  height: 10px;
-  background-color: #007bff;
-  border-radius: 50%;
-}
-*/
 
 .card {
   border: none;
@@ -60,30 +38,7 @@ footer {
   font-size: 1.25rem;
 }
 
-/*
-.timeline {
-  position: relative;
-  border-left: 3px solid #007bff;
-  margin: 20px 0;
-  padding-left: 20px;
-}
 
-.timeline-item {
-  margin-bottom: 30px;
-  position: relative;
-}
-
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -11px;
-  top: 0;
-  width: 20px;
-  height: 20px;
-  background-color: #007bff;
-  border-radius: 50%;
-}
-*/
 
 .card {
   margin-left: 20px;
@@ -130,6 +85,7 @@ footer {
   object-fit: cover;
   z-index: -1; /* Ensures the video stays in the background */
 }
+
 
 .overlay {
   position: absolute;
@@ -280,3 +236,11 @@ footer {
 }
 
 
+/* Video Styling */
+.video-left {
+  width: 200px; /* Adjust to desired size */
+  height: auto;
+  border-radius: 10px; /* Optional: rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: shadow for aesthetics */
+  object-fit: cover; /* Ensure proper scaling */
+}
