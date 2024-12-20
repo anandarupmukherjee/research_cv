@@ -7,6 +7,7 @@
   <title>Anandarup Mukherjee - Academic CV</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -35,48 +36,51 @@
 
 <main class="container my-5">
   <!-- Career Summary Section -->
-  <section id="career-summary" class="mb-5">
-    <div class="card shadow-sm position-relative">
-      <div class="card-body d-flex align-items-start">
-        <!-- Video Section -->
-        <video autoplay loop muted playsinline class="video-left me-4">
-          <source src="logos/MainScene.webm" type="video/webm">
-          Your browser does not support the video tag.
-        </video>
+<section id="career-summary" class="mb-5">
+  <div class="card shadow-sm position-relative">
+    <div class="card-body d-flex align-items-start">
+      <!-- Video Section -->
+      <video autoplay loop muted playsinline class="video-left me-4">
+        <source src="logos/MainScene.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
 
-        <!-- Text Section -->
-        <div>
-          <h5 class="card-title text-primary">Career Summary</h5>
-          <p>
-            I am an experienced researcher with over 14 years of R&D expertise, more than 6+ years of team leadership and management, and a versatile skill set spanning hardware and software domains. My work has led to award-winning IoT-based technology prototypes and a deep understanding of IoT architectures. I specialize in developing smart and aware sensing systems that intersect industrial automation and asset management. My research interests include low-cost digitalization and transformation architectures, UAV networks and swarms, industrial automation and communication, and applied machine learning.
+      <!-- Text Section -->
+      <div>
+        <h5 class="card-title text-primary mb-3">Career Summary</h5>
+        <p class="mb-3">
+          <strong>I am an experienced researcher</strong> with over <strong>14 years of R&D expertise</strong>, more than <strong>6 years of team leadership</strong>, and a versatile skill set spanning hardware and software domains. My work has led to <strong>award-winning IoT-based technology prototypes</strong> and a deep understanding of IoT architectures.
+        </p>
+        <p class="mb-3">
+          I specialize in developing <strong>smart and aware sensing systems</strong> that intersect industrial automation and asset management. My research interests include <strong>low-cost digitalization</strong> and transformation architectures, UAV networks and swarms, industrial automation and communication, and applied machine learning.
+        </p>
+        <p class="mb-3">
+          In my professional roles, I contribute as the <strong>Vice-Chair of IEEE P1954</strong> - Standard for Self-Organizing Spectrum-Agile Unmanned Aerial Vehicle Communications, <strong>Associate Editor</strong> for Springer Nature’s "Peer-to-Peer Networking and Applications" journal, and <strong>Area Expert</strong> in IoT Communications and Interoperability within IEEE ComSoc’s Special Interest Group on IoT for e-Health.
+        </p>
 
-           I hold a Ph.D. in Computer Science from IIT Kharagpur (India), a Master's in Microelectronics and VLSI Design, and a Bachelor's degree in Electronics and Communications Engineering.
+        <div class="d-flex justify-content-start align-items-center mt-3">
+          <button class="btn-read-more me-auto" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#details-career-summary" aria-expanded="false" aria-controls="details-career-summary">
+            <span>More</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+        </div>
 
-            In my professional roles, I contribute as the Vice-Chair of IEEE P1954 - Standard for Self-Organizing Spectrum-Agile Unmanned Aerial Vehicle Communications, Associate Editor for Springer Nature’s "Peer-to-Peer Networking and Applications" journal, and Area Expert in IoT Communications and Interoperability within IEEE ComSoc’s Special Interest Group on IoT for e-Health. 
-          </p>
-
-          <div class="d-flex justify-content-start align-items-center">
-            <button class="btn-read-more me-auto" type="button" data-bs-toggle="collapse" 
-                    data-bs-target="#details-career-summary" aria-expanded="false" aria-controls="details-career-summary">
-              <span>Details</span>
-              <i class="fa-solid fa-chevron-down"></i>
-            </button>
-          </div>
-
-          <div class="collapse mt-3" id="details-career-summary">
-            <div class="p-3 border rounded bg-light">
-              <ul>
-                <li><strong>Current Role:</strong> Senior Research Associate, Institute for Manufacturing (IfM), Department of Engineering, University of Cambridge, U.K.</li>
-                <li><strong>Key Metrics:</strong> 1300+ citations, h-index: 22, i-10 index: 33.</li>
-                <li><strong>Achievements:</strong> Founding Organizing Chair of Low-Cost Digital Solutions for Industrial Automation (LoDiSA 23 & 24) workshops - a pioneering global scientific forum for formalizing research on low-cost technologies.</li>
-                <li><strong>Research Areas:</strong> Digital Twins, Complex Networks and Systems, Interoperability, Industrial IoT, Condition Monitoring, Prognostics, e-health, UAV Networks, Low-cost Sensing, Machine Learning</li>
-              </ul>
-            </div>
+        <div class="collapse mt-3" id="details-career-summary">
+          <div class="p-3 border rounded bg-light">
+            <ul>
+              <li><strong>Current Role:</strong> Senior Research Associate, Institute for Manufacturing (IfM), Department of Engineering, University of Cambridge, U.K.</li>
+              <li><strong>Key Metrics:</strong> 1300+ citations, h-index: 22, i-10 index: 33.</li>
+              <li><strong>Achievements:</strong> Founding Organizing Chair of Low-Cost Digital Solutions for Industrial Automation (LoDiSA 23 & 24) workshops - a pioneering global scientific forum for formalizing research on low-cost technologies.</li>
+              <li><strong>Research Areas:</strong> Digital Twins, Complex Networks and Systems, Interoperability, Industrial IoT, Condition Monitoring, Prognostics, e-health, UAV Networks, Low-cost Sensing, Machine Learning.</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
 
     <!-- Section Cards -->
@@ -182,6 +186,40 @@
       </div>
       
       </div>
+    
+    
+    <section id="social-media-connect" class="text-center my-5">
+      <h3 class="text-primary mb-4">Connect with Me</h3>
+      <div class="d-flex justify-content-center gap-4">
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/anandarupmukherjee/" target="_blank" class="social-link">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/anandarup_m/" target="_blank" class="social-link">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+
+        <!-- Google Scholar -->
+        <a href="https://scholar.google.co.in/citations?user=M4lwDqYAAAAJ&hl=en" target="_blank" class="social-link">
+          <i class="fas fa-graduation-cap fa-2x"></i>
+        </a>
+
+        <!-- ResearchGate -->
+        <a href="https://www.researchgate.net/profile/Anandarup-Mukherjee" target="_blank" class="social-link">
+          <i class="fas fa-flask fa-2x"></i>
+        </a>
+
+        <!-- External Website -->
+        <a href="https://www.eng.cam.ac.uk/profiles/am2910" target="_blank" class="social-link">
+          <i class="fas fa-external-link-alt fa-2x"></i>
+        </a>
+      </div>
+    </section>
+
+    
+    
   </main>
     
 

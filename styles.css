@@ -238,9 +238,58 @@ footer {
 
 /* Video Styling */
 .video-left {
-  width: 200px; /* Adjust to desired size */
+  width: 150px; /* Fixed size for alignment */
   height: auto;
-  border-radius: 10px; /* Optional: rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: shadow for aesthetics */
-  object-fit: cover; /* Ensure proper scaling */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
+
+/* Typography */
+.card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.card-body p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.card-body ul li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Button Styling */
+.btn-read-more {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-read-more:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+.social-link {
+  color: #007bff; /* Default color */
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-link:hover {
+  color: #0056b3; /* Hover color */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.social-link i {
+  font-size: 2rem; /* Icon size */
+}
+
